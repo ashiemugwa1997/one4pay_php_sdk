@@ -12,7 +12,7 @@ composer require one4pay_payment_gateway/payment
 Import the library into your project/application
 ```php
 require_once 'path/to/vendor/autoload.php';
-use one4pay_payment_gateway/payment ```
+use one4pay/payment ```
 
 making a payment
 #### usage 
