@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'One4payPaymentGateway\\Payment\\' => array($baseDir . '/src'),
+    'One4pay\\Payment\\' => array($baseDir . '/src'),
 );

@@ -1,11 +1,11 @@
 {
-    "name": "one4pay_payment_gateway/payment",
+    "name": "one4pay/payment",
     "description": "payment gateway for mobile applications and ecoomerce websites",
     "type": "library",
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "One4payPaymentGateway\\Payment\\": "src/"
+            "One4pay\\Payment\\": "src/"
         }
     },
     "authors": [

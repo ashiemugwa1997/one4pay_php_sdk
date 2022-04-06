@@ -9,12 +9,12 @@ class ComposerStaticInit63f9bdd1cc518b8840155554b29fab7b
     public static $prefixLengthsPsr4 = array (
         'O' => 
         array (
-            'One4payPaymentGateway\\Payment\\' => 30,
+            'One4pay\\Payment\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'One4payPaymentGateway\\Payment\\' => 
+        'One4pay\\Payment\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
