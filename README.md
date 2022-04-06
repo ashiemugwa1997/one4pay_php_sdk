@@ -14,17 +14,18 @@ Import the library into your project/application
 require_once 'path/to/vendor/autoload.php';
 use one4pay_payment_gateway/payment ```
 
-## usage 
+making a payment
+#### usage 
 make payment
 
 ```php
     payment($merchantId,$currencyCode,$cardDetails,$reference,$failureUrl,$returnUrl,$originatingApplicationName
         ,$amount,$paymentMethod,$apiMethod,$sourceType)```
         
-## get available currencies
+###### get available currencies
 ```
 getAvailableCurrencies()
 ```
-##authenticate
+########authenticate
 ```php
  authentication($username,$password)```
